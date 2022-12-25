@@ -1,0 +1,27 @@
+<html>
+<link rel="stylesheet" href="{{ url_for('static', filename ='css/main.css') }}"/>
+
+<body>
+   
+
+<div class="skill-box">
+    <form action="http://localhost:5000/login" method="post">
+        <select name="Palag" id="Palag">
+            <option value="Jaccard">Jaccard Distance</option>
+            <option value="Edit">Edit Distance</option>
+        </select>
+        <p>Enter Text:</p>
+        <textarea id="subject" name="nm1" placeholder="Write something.." style="height:200px"></textarea>
+        <button class="button-64" role="button" type="submit"><span class="text">Submit</span></button>
+    </form>
+
+
+
+</div>
+
+
+</body>
+</html>
+
+
+
